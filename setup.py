@@ -45,4 +45,6 @@ setuptools.setup(
         "Programming Language :: Python :: 3.11",
     ],
     zip_safe=False,
+       $ heroku config:set DISABLE_COLLECTSTATIC=1 ,
+       https://devcenter.heroku.com/articles/django-assets ,
 )
